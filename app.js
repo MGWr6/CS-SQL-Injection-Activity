@@ -3,7 +3,6 @@ const http = require('http');
 const path = require('path');
 const express = require('express');
 const sqlite3 = require('sqlite3').verbose();
-const PORT = 3000
 
 const app = express();
 app.use(express.static('.'));
